@@ -31,7 +31,7 @@ public class DaftarActivity extends AppCompatActivity {
         fab=findViewById(R.id.fabSimpan);
 
 
-        fab.setOnClickListener(new View.OnClickListener()
+        fab.setOnClickListener( new View.OnClickListener()
         {
             @Override
             public void onClick(View view) {
@@ -40,7 +40,7 @@ public class DaftarActivity extends AppCompatActivity {
                         edtPassword.getText().toString().isEmpty() ||
                         edtrepass.getText().toString().isEmpty())
                 {
-                    Snackbar.make(view,"Wajib Diisi Seluruh Data !!!", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(view,"Wajib Di isi Seluruh Data !!!", Snackbar.LENGTH_LONG).show();
                 }
                 else
                 {
