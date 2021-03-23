@@ -9,7 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Constraint">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".DaftarActivity"
+            android:label="@string/mdaftar"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ActivityKedua"
+            android:label="@string/judul2"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/judul1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
