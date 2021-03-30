@@ -1,9 +1,7 @@
 package com.example.constraint;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -68,12 +66,12 @@ public class MainActivity extends AppCompatActivity {
                     b.putString("b", password.trim());
 
                     //membuat objek intent berpindah activity dari mainactivity ke activityhasil
-                    Intent i = new Intent(getApplicationContext(), ActivityKedua.class);
+                    Intent i = new Intent(getApplicationContext(), Home_Activity.class);
 
                     //memasukkan bundle kedalam intent untuk dikrimkan ke ActivityHasil
                     i.putExtras(b);
 
-                    //berpindah ke ActivityHasil
+                    //berpindah ke Home_Activity
                     startActivity(i);
                 }
                 else if (nama.equals(email) || pass.equals(password))

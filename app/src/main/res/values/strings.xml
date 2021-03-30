@@ -11,9 +11,21 @@
     <string name="mdaftar">Pendaftaran</string>
     <string name="enama">Masukkan Nama</string>
     <string name="eemail">Masukkan Email</string>
+    <string name="ealamat">Masukkan Alamat</string>
     <string name="epass">Masukkan Password</string>
     <string name="erepas">Confirm Password</string>
-    <string name="ealamat">Masukkan Alamat</string>
+    <string name="lihatdata">Lihat Data</string>
+    <string name="editdata">Edit Data</string>
+    <string name="namaitem">Nama Item</string>
+    <string name="detailkontak">Detail Kontak</string>
+    <string name="datakontak">Data Kontak</string>
+    <string name="listkontak">List Kontak</string>
+    <string name="nama">Nama</string>
+    <string name="note1">Nomer Telepon</string>
+
+
+
+
 
 
 </resources>
