@@ -17,6 +17,11 @@ public class ActivityLihatData extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
 
         String nama = bundle.getString("a");
+        String nomor = bundle.getString("b");
+
+        nomor=tvnomor.getText().toString();
+
+
 
 
         switch (nama) {

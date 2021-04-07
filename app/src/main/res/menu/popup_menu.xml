@@ -5,7 +5,7 @@
         android:id="@+id/mnview"
         android:title="@string/lihatdata"/>
     <item
-        android:id="@+id/mnedit"
-        android:title="@string/editdata"/>
+        android:id="@+id/mnnomor"
+        android:title="Nomor"/>
 
 </menu>

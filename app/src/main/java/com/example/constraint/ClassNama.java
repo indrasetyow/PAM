@@ -10,4 +10,10 @@ public class ClassNama {
     {
         return this.Nama;
     }
+    public String getNama(){
+        return this.Nama;
+    }
+
 }
+
+

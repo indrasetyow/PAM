@@ -21,7 +21,9 @@
     <string name="datakontak">Data Kontak</string>
     <string name="listkontak">List Kontak</string>
     <string name="nama">Nama</string>
-    <string name="note1">Nomer Telepon</string>
+    <string name="rdperem">Perempuan</string>
+    <string name="rdlk">Laki-Laki</string>
+    <string name="blmdaftar">Belum Mendaftar?</string>
 
 
 

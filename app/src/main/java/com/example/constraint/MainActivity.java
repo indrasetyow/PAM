@@ -7,28 +7,31 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     EditText edemail, edpassword;
-    Button btnsignin;
-
+    Button btnsignin, btnblmdaftar;
     String nama,password;
 
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (item.getItemId() == R.id.mnDaftar)
-        {
-            Intent i = new Intent(getApplicationContext(), DaftarActivity.class);
-            startActivity(i);
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        getMenuInflater().inflate(R.menu.menu, menu);
+//        return super.onCreateOptionsMenu(menu);
+//    }
+//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+//        if (item.getItemId() == R.id.mnDaftar)
+//        {
+//            Intent i = new Intent(getApplicationContext(), DaftarActivity.class);
+//            startActivity(i);
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +42,15 @@ public class MainActivity extends AppCompatActivity {
         btnsignin=findViewById((R.id.signIn));
         edemail=findViewById(R.id.Email);
         edpassword=findViewById(R.id.Password);
+        btnblmdaftar=findViewById(R.id.btndftr);
+
+        btnblmdaftar.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, DaftarActivity.class);
+                startActivity(intent);
+            }
+        });
 
         btnsignin.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -92,6 +104,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
+
     }
 
 

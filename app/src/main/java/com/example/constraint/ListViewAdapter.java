@@ -1,5 +1,4 @@
 package com.example.constraint;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
