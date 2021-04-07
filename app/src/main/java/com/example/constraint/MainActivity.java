@@ -55,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
         btnsignin.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View View) {
-                String email = "indrasetyow";
-                String pass = "123";
+                String email = "admin@mail.com";
+                String pass = "123456";
 
                 nama = edemail.getText().toString();
                 password = edpassword.getText().toString();
